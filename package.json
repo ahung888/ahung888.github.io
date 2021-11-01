@@ -1,0 +1,12 @@
+{
+  "name": "ahung888.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ahung888/ahung888.github.io.git",
+  "author": "ahung888 <yunhung2000@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js",
+    "export": "yarn build && cp -R static/* out/"
+  }
+}
